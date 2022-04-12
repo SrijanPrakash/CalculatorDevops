@@ -9,5 +9,8 @@
 
     - name: pull docker image
       shell: docker pull srijanprakash/calculator
+      
+    - name: running container
+      shell: docker run -it -d srijanprakash/calculator /bin/bash
 
     
