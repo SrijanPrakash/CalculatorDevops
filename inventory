@@ -1,4 +1,4 @@
-192.168.196.248 ansible_user=srijan
+//ip address according to ifconfig changes
 
 [ubuntu 20.04]
 192.168.196.248 ansible_user=srijan
