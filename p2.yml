@@ -2,14 +2,16 @@
 - name: Pull docker image of Calculator
   hosts: all
   tasks:
+#    - for starting the docker
     - name: Start docker service
       service:
         name: docker
         state: started
-
+#pull docker image from dockerhub
     - name: pull docker image
       shell: docker pull srijanprakash/calculator
-      
+
+#      the below command will automatically run the docker image without explicitally entering the run command
     - name: running container
       shell: docker run -it -d srijanprakash/calculator /bin/bash
 
