@@ -1,2 +1,2 @@
-[ubuntu 20.04]
+[ubuntu]
 172.16.128.54 ansible_user=srijan
