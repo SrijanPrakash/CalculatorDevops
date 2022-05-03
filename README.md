@@ -10,8 +10,6 @@ maven, pushing build docker image onto docker hub. This entire process is called
 continuous integration.
 Later we will integrate Ansible with Jenkins which will support continuous
 deployment.
-Ansible will pull the image from docker hub to managed nodes and will deploy it
-to the docker container.
 
 
 Added webhook for automation.
